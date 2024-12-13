@@ -30,8 +30,7 @@ FAPV addresses these challenges by leveraging Functional Data Analysis (FDA) to:
 - Python 3.x
 - NumPy
 - SciPy
-- Matplotlib (optional)
-- Additional dependencies listed in `requirements.txt`
+- Matplotlib 
 
 ---
 
@@ -40,7 +39,7 @@ FAPV addresses these challenges by leveraging Functional Data Analysis (FDA) to:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/FAPV_FourWay_Chromatographic_Alignment.git
+git clone https://github.com/AkarisDimitry/FAPV_FourWay_Chromatographic_Alignment.git
 cd FAPV_FourWay_Chromatographic_Alignment
 pip install -r requirements.txt
 ```
