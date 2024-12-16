@@ -40,40 +40,8 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/AkarisDimitry/FAPV_FourWay_Chromatographic_Alignment.git
-cd FAPV_FourWay_Chromatographic_Alignment
-pip install -r requirements.txt
 ```
 
----
-
-## Usage
-
-### 1. Data Preparation
-Provide your four-way LC-FS data as a NumPy array or a suitable data structure.
-
-### 2. Parameter Setup
-Adjust parameters in the configuration script (e.g., `config.py`).
-
-### 3. Run the Algorithm
-Execute the following command:
-
-```bash
-python run_fapv.py
-```
-
-### 4. Subsequent Analysis
-Use the aligned output data for standard multilinear calibration (e.g., PARAFAC).
-
----
-
-## Example
-
-Refer to `example.ipynb` for a step-by-step demonstration:
-
-1. Load raw four-way data.
-2. Apply FAPV.
-3. Perform PARAFAC decomposition.
-4. Evaluate prediction performance against other models (e.g., MCR-ALS, PARAFAC2).
 
 ---
 
